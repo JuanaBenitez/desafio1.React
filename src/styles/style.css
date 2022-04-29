@@ -1,3 +1,9 @@
+body {
+    background-color: black;
+}
+
 h1 {
-    color: purple;
+    color: #ffc09f;
+    font-weight:bolder;
+    font-size: 50px;
 }

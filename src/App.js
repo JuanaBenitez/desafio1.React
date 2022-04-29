@@ -1,11 +1,10 @@
-
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
     <div className="App">
-      <h1> Mi primer aplicación React.Js</h1>
-      
-      
+      <Navbar />
+      <h1> Lorelai y Rory</h1>
 
     </div>
   );
