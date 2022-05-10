@@ -18,4 +18,16 @@ h3 {
     text-align: center;}
 
 
+    .logo {
+        padding: 5px;
+        border: dashed 4px;
+        border-color: black;
+        flex-flow: column wrap;
+        justify-content: space-around;
+        align-items: flex-end;
+        display: grid;
+        grid-template-columns: auto auto auto auto; }
 
+
+
+       

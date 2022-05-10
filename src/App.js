@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar/Navbar";
 import ItemCount from "./components/ItemCount/ItemCount";
 
-import H3 from "./components/ItemListContainer/ItemListContainer";
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <Navbar />
       <ItemCount stock="10" initial="0"/>
       <h1> Lorelai y Rory</h1>
-      <H3 greeting={"Gracias por tu visita"} />
+      <ItemListContainer greeting={"Gracias por tu visita"} />
     </div>
     
   );

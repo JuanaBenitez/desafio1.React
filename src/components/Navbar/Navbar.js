@@ -28,11 +28,17 @@ export default function Navbar () {
         color: "black",
         fontWeight: "bolder",
         fontSize: 30
+
+    
         
     }
     return (
         <header className="header">
-            <div className="logo" style= {logoStyle}>Gilmore Girls</div>
+            <div className="logo" style= {logoStyle}>
+            
+            Gilmore Girls
+            <CartWidget/>
+            </div>
 
         <ul className="Menu" style= {menuStyle}>
                         <li>Inicio</li>
@@ -44,7 +50,7 @@ export default function Navbar () {
         </ul>
 
 
-        <CartWidget/>
+        
 
         <Button texto="Comprar"/>
 

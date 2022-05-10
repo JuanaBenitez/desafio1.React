@@ -1,4 +1,4 @@
-export default function H3 ({greeting}) { 
+export default function ItemListContainer ({greeting}) { 
     return (
         <div>
             <h3> {greeting} </h3>
