@@ -1,18 +1,28 @@
+import React from "react"
+import {} from "react-bootstrap"
+
 import CartWidget from "../CartWidget/CartWidget"
+
 export default function Navbar () {
+
+    const Button = ({texto}) => {
+        return (
+        <input type= "button" value={texto} />
+        )
+    }
 
     const menuStyle = {
         display: "flex",
         justifyContent: "space-between",
         listStyle: "none",
-        background: "grey",
+        background: "#929da8",
         padding: 10,
         fontWeight: "bolder",
         fontSize: 25
     }
 
     const logoStyle = {
-        background: "#9B9A9A",
+        background: "#929da8",
         textAlign: "center",
         padding: 15,
         color: "black",
@@ -33,7 +43,14 @@ export default function Navbar () {
 
         </ul>
 
-        <CartWidget count={5}/>
+
+        <CartWidget/>
+
+        <Button texto="Comprar"/>
+
+        
+
+        
 
         </header>
 

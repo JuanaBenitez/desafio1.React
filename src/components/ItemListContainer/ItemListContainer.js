@@ -1,7 +1,7 @@
-export default function h3 () { 
+export default function H3 ({greeting}) { 
     return (
         <div>
-            <h3>  Gracias por tu visita </h3>
+            <h3> {greeting} </h3>
         </div>
     );
 
