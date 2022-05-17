@@ -26,7 +26,7 @@ export default function ItemCount ({stock, initial, onAdd}) {
                 <input type= "button" value="+"  onClick= {sumar} />
                 {count}
                 <input type= "button" value="-"  onClick= {restar} />
-                
+                <button onClick={agregarCarrito}>Agregar al agregarCarrito</button>
             
         
             </div>

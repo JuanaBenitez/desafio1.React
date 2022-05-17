@@ -4,7 +4,7 @@ export default function ItemDetailContainer ({getItem}) {
     const getItem = new Promise ((resolve, reject) => {
         resolve()
     }).then(() => {
-        console.log("getitem")
+        console.log("getItem")
 
     })
 }

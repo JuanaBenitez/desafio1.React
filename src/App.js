@@ -1,3 +1,4 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import React from "react";
 import Navbar from "./components/Navbar/Navbar";
 import {products} from "./components/Item/Item";
@@ -17,13 +18,16 @@ function App() {
     console.log(result);
   })
  
+  const onAdd = (count) => {
+    onAdd(count);
+  }
   
 
 
   return (
    <div className="App">
       <Navbar />
-      <ItemCount stock="10" initial="0"/>
+      <ItemCount stock= {10} initial= {0} onAdd = {onAdd} />
       <h1> Lorelai y Rory</h1>
       {products.map((product, index) => (
           <div key={index} >
