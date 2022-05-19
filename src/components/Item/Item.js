@@ -3,7 +3,6 @@ export const products = [
 id: 1,
 title: "Temporada 1", 
 stock: 10, 
-price: 900, 
 
 },
 

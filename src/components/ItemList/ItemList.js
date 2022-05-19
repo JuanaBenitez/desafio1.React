@@ -1,4 +1,4 @@
-
+//*import {products} from "./components/Item/Item";*// deberia estar aca y no en app.js pero se me rompe todo
 import {Card, Button} from 'react-bootstrap';
 export default function ItemList ({products}) {
     return (

@@ -4,8 +4,22 @@ import Navbar from "./components/Navbar/Navbar";
 import {products} from "./components/Item/Item";
 import ItemCount from "./components/ItemCount/ItemCount";
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
+//import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer";
 
 function App() {
+
+ 
+  /*
+   *<BrowserRouter>
+  <Routes>
+    <Route exact path="/" element= {<ItemListContainer />} />
+    <Route exact path="/category/:id" element= {<ItemListContainer />} />
+    <Route exact path="/item/:id" element= {<ItemDetailContainer />} />
+  </Routes>
+  </BrowserRouter> **/
+  
+   
+  
 
   const task = new Promise ((resolve, reject) => {
     setTimeout(() => {
@@ -55,4 +69,3 @@ function App() {
 }
 
 export default App;
-
